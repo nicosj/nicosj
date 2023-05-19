@@ -87,7 +87,7 @@ body {
 .navbar > #nav-check {
     display: none;
 }
-@media (max-width: 380px) {
+@media (max-width: 580px) {
     .navbar {
         padding: 1rem;
     }
