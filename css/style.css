@@ -30,7 +30,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 2em;
-
 }
 
 .brand {
@@ -139,7 +138,7 @@ body {
         margin-top: 1.5rem;
     }
     .navbar > #nav-check:checked ~ .menu {
-        height: calc(100vh - 100px);
+        height: calc(80vh - 100px);
     }
 }
 
@@ -361,7 +360,7 @@ span{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 50vh;
+    height: 25vh;
     background-color: aqua;
 }
 .contenido-footer h2{
