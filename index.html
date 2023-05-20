@@ -165,10 +165,13 @@
         <img src="./img/portfolio.png" alt="Nicolas Rodriguez picture">
         <div class="contacto-form">
             <h4>Enviame un mensaje...</h4>
-            <form class="form-control">
-                <input type="text" placeholder="Nombre">
-                <input type="email" placeholder="Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <form class="form-control"
+                  action="https://formspree.io/f/mdovvnkd"
+                  method="POST"
+            >
+                <input type="text" name="name" placeholder="Nombre">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                 <button type="submit" class="btn-subir">Enviar</button>
             </form>
         </div>
