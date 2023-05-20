@@ -163,6 +163,7 @@ span{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width:100vw;
+    height: 100vh;
     align-items: center;
 }
 .sobre img{
@@ -191,6 +192,7 @@ span{
 /*Portfolio*/
 .portfolio{
     width: 100vw;
+    height: 100vh;
     background-color: #191c32;
     color: #fff;
 }
@@ -274,6 +276,7 @@ span{
 
 .contacto{
     width:100vw;
+    height: 100vh;
     background-color: #191c32;
     align-items: center;
 
@@ -343,7 +346,7 @@ span{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 200px;
+    height: 50vh;
     background-color: aqua;
 }
 .contenido-footer h2{
