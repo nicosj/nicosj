@@ -16,6 +16,14 @@ body {
     color: #fff;
 }
 /*navbar*/
+.piv{
+    display:block;
+    position: fixed;
+    width: 100%;
+    background-color: #191c32;
+    border-bottom: aqua 2px solid;
+    box-shadow: 1px 1px 10px aqua;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
