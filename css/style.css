@@ -320,7 +320,8 @@ span{
     color: #fff;
 }
 .container-contacto img{
-    width: 40vw;
+    width: 70%;
+
     bottom: 0px;
     opacity: 0.1;
 }
@@ -365,6 +366,7 @@ span{
     width: 100vw;
     height: 25vh;
     background-color: aqua;
+
 }
 .contenido-footer h2{
     font-size: 3em;
